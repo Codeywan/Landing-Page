@@ -152,14 +152,19 @@ h2 {
 
 /* call to action section */
 
+.coa-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .coa {
     background-color: #3882F6;
     margin: 100px 150px;
     color: #F9FAF8;
     display: flex;
-    justify-content: space-around;
     align-items: center;
-    padding: 60px 0px;
+    padding: 40px 150px;
     border-radius: 10px;
 }
 
@@ -169,5 +174,19 @@ h2 {
 
 .left-coa>p {
     color: #E5E7EB;
-    font-size: 18px;
+    font-size: 22px;
+    padding-right: 150px;
+}
+
+
+
+
+/* footer section  */
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 50px;
+    font-size: 22px;
 }
