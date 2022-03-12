@@ -104,7 +104,6 @@ h2 {
 .container {
     display: flex;
     justify-content: space-evenly;
-    gap: 50px;
     margin: 0px 200px 100px 200px;
 }
 
@@ -116,7 +115,36 @@ h2 {
 
 .group {
     display: flex;
-    /* flex-direction: column; */
     flex-wrap: wrap;
     width: 200px;
+}
+
+
+/* Quote section */
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote>p {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px 400px;
+    margin-bottom: 0px;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-right: 400px;
+    margin-bottom: 100px;
+    font-size: 24px;
+    font-weight: bold;
 }
